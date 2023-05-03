@@ -2,7 +2,7 @@
 
 If you're working on a Git project with many branches, it's easy to accumulate a lot of local branches that you no longer need. To clean up your local repository and remove these branches, you can use the following Git command:
 
-git branch | grep -v "master" | xargs git branch -D
+<code>git branch | grep -v "master" | xargs git branch -D</code>
 
 
 This command will list all local branches except for the "master" branch and delete them. Here's what each part of the command does:
